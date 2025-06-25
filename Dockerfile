@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
-RUN sudo apt update && \
-    sudo apt install -y \
+RUN apt-get update && \
+    apt-get install -y \
         build-essential \
         texlive \
         texlive-luatex \
